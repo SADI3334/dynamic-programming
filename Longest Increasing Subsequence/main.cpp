@@ -17,9 +17,9 @@ public:
 
     }
 };
+
 int main()
 {
-
     int n;
     cin >> n;
     memset (sub, 1, sizeof (sub));
