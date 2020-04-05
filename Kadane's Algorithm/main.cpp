@@ -8,7 +8,7 @@ typedef long long ll;
 
 
 /// Two cases to consider.
-/// Kadane's Algorithms works is there exists at least one non negative integer in the array.
+/// Kadane's Algorithms works if there exists at least one non negative integer in the array.
 /// So, we have to check the array once to be sure if all the elements are negative or not.
 
 int MSS(int arr[], int n) {
