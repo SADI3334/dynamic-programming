@@ -22,7 +22,6 @@ int main()
 {
     int n;
     cin >> n;
-    memset (sub, 1, sizeof (sub));
     for (int i = 0; i < n; ++i) {
         cin >> arr[i];
         sub[i] = 1;
