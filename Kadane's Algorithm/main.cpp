@@ -1,12 +1,12 @@
 #include <bits/stdc++.h>
 using namespace std;
 
-#define	watch(x);                       cout << "\n" <<  #x << " is: " << x << "\n";
-#define	from(i, n);                      for(int i = 0; i < n; ++i)
+#define	watch(x);                 cout << "\n" <<  #x << " is: " << x << "\n";
+#define	from(i, n);               for(int i = 0; i < n; ++i)
 #define	show(container);          for(auto it = container.begin(); it != container.end(); ++it) { cout << *it << " "; cout << "\n"; }
 typedef long long ll;
 
-
+/// THIS ALGORITHM FINDS THE MAXIMUM SUM BETWEEN ALL POSSIBLE THE SUB-ARRAYS.
 /// Two cases to consider.
 /// Kadane's Algorithms works if there exists at least one non negative integer in the array.
 /// So, we have to check the array once to be sure if all the elements are negative or not.
